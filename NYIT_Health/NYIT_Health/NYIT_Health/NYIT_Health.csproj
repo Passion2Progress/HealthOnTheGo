@@ -18,6 +18,12 @@
     <Compile Update="GoodMorning.xaml.cs">
       <DependentUpon>GoodMorning.xaml</DependentUpon>
     </Compile>
+    <Compile Update="DrinksInfo.xaml.cs">
+      <DependentUpon>DrinksInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="YourDay.xaml.cs">
+      <DependentUpon>YourDay.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -25,6 +31,12 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="GoodMorning.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="DrinksInfo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="YourDay.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

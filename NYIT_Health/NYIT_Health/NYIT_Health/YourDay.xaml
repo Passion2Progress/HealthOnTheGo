@@ -7,19 +7,19 @@
 
         <StackLayout Margin=" 10,50,10,10" >
             <Label
-                Text="Good Morning,"
+                Text="Hows your day"
                 TextColor="DimGray"
                 HorizontalTextAlignment="Center"
-                FontSize="45"
+                FontSize="40"
                 />
 
             <Label
-                Text="(Name)."
+                Text="going, (Name)?"
                 TextColor="DimGray"
                 HorizontalTextAlignment="Center"
-                FontSize="45"
+                FontSize="40"
                 />
-            
+
             <Frame Margin="50,20,50,10" Padding="10,10,10,10"
                OutlineColor="DimGray"
                HasShadow="False"
@@ -27,16 +27,16 @@
                HorizontalOptions="Center">
 
                 <Label 
-                    Text=" &quot;This is an inspirational quote, quoted by someone inspirational.&quot;&#x0a;-Famous Person" 
+                    Text="Tip: an apple each moning keeps you from snoring" 
                     TextColor="DimGray"
                     FontSize="15" 
                     HorizontalTextAlignment="Center"
                     />
-                
+
             </Frame>
 
             <Label
-                Text="How was your rest?"
+                Text="Had a drink?"
                 TextColor="DimGray"
                 FontSize="35"
                 HorizontalTextAlignment="Center"
@@ -44,46 +44,46 @@
 
             <Grid>
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji0.png"
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\drink0.png"
                     Grid.Row="0"
                     Grid.Column="0"
                 />
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji1.png"
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\drink1.png"
                     Grid.Row="0"
                     Grid.Column="1"
                 />
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji2.png"
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\drink2.png"
                     Grid.Row="0"
                     Grid.Column="2"
                 />
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji3.png"
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\drink3.png"
                     Grid.Row="0"
                     Grid.Column="3"
                 />
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji4.png"
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\drink4.png"
                     Grid.Row="0"
                     Grid.Column="4"
                 />
             </Grid>
 
             <Label
-                Text="You slept for (n) hours!"
+                Text="Remember to"
                 TextColor="DimGray"
                 FontSize="25"
                 HorizontalTextAlignment="Center"
                 />
 
             <Label
-                Text="Feeling refreshed?"
+                Text="Hydrate yourself!"
                 TextColor="DimGray"
                 FontSize="25"
                 HorizontalTextAlignment="Center"
                 />
-            
+
 
             <Button
                 Margin="110,10,110,10"
@@ -96,8 +96,8 @@
 
         </StackLayout>
 
-        
-        
-        
+
+
+
     </ContentPage.Content>
 </ContentPage>
