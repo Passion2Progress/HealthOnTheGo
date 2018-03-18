@@ -4,7 +4,7 @@
              x:Class="NYIT_Health.Page1"
              BackgroundColor="WhiteSmoke">
     <ContentPage.Content>
-        
+
         <StackLayout Margin=" 10,50,10,10" >
             <Label
                 Text="Good Morning,"
@@ -44,32 +44,30 @@
 
             <Grid>
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\emoji0.png"
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji0.png"
                     Grid.Row="0"
                     Grid.Column="0"
                 />
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\emoji1.png"
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji1.png"
                     Grid.Row="0"
                     Grid.Column="1"
                 />
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\emoji2.png"
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji2.png"
                     Grid.Row="0"
                     Grid.Column="2"
                 />
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\emoji3.png"
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji3.png"
                     Grid.Row="0"
                     Grid.Column="3"
                 />
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\emoji4.png"
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji4.png"
                     Grid.Row="0"
                     Grid.Column="4"
                 />
-                
-                
             </Grid>
 
             <Label
