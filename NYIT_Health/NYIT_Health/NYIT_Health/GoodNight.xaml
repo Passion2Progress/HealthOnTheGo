@@ -71,8 +71,8 @@
 
             <Button
                 Margin="15,0"
-                Text="Your alarm is set from &#x0a; (start time) - (end time)"
-                FontSize="24"
+                Text="Your alarm is set from &#x0a; (start time) to (end time)"
+                FontSize="22"
                 />
 
             <Button
