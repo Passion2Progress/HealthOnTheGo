@@ -21,6 +21,15 @@
     <Compile Update="DrinksInfo.xaml.cs">
       <DependentUpon>DrinksInfo.xaml</DependentUpon>
     </Compile>
+    <Compile Update="GoodEvening.xaml.cs">
+      <DependentUpon>GoodEvening.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="GoodNight.xaml.cs">
+      <DependentUpon>GoodNight.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Nap.xaml.cs">
+      <DependentUpon>Nap.xaml</DependentUpon>
+    </Compile>
     <Compile Update="YourDay.xaml.cs">
       <DependentUpon>YourDay.xaml</DependentUpon>
     </Compile>
@@ -34,6 +43,15 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="DrinksInfo.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GoodEvening.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="GoodNight.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Nap.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="YourDay.xaml">

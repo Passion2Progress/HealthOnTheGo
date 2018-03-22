@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NYIT_Health.Page1"
+             BackgroundColor="WhiteSmoke">
+    <ContentPage.Content>
+        <StackLayout Margin=" 10,50,10,10" >
+            <Label
+                Text="Good evening,"
+                TextColor="DimGray"
+                HorizontalTextAlignment="Center"
+                FontSize="45"
+                />
+
+            <Label
+                Text="(Name)."
+                TextColor="DimGray"
+                HorizontalTextAlignment="Center"
+                FontSize="45"
+                />
+
+            <Frame Margin="50,20,50,10" Padding="10,10,10,10"
+               OutlineColor="DimGray"
+               HasShadow="False"
+               CornerRadius="0"
+               HorizontalOptions="Center">
+
+                <Label 
+                    Text=" &quot;This is an inspirational quote, quoted by someone inspirational.&quot;&#x0a;-Famous Person" 
+                    TextColor="DimGray"
+                    FontSize="15" 
+                    HorizontalTextAlignment="Center"
+                    />
+
+            </Frame>
+
+            <Label
+                Text="How was your day?"
+                TextColor="DimGray"
+                FontSize="35"
+                HorizontalTextAlignment="Center"
+              />
+
+            <Grid>
+                <Image
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji0.png"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                />
+                <Image
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji1.png"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                />
+                <Image
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji2.png"
+                    Grid.Row="0"
+                    Grid.Column="2"
+                />
+                <Image
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji3.png"
+                    Grid.Row="0"
+                    Grid.Column="3"
+                />
+                <Image
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji4.png"
+                    Grid.Row="0"
+                    Grid.Column="4"
+                />
+            </Grid>
+
+            <Button
+                Margin="15,0"
+                Text="Your alarm is set from &#x0a; (start time) - (end time)"
+                FontSize="24"
+                />
+
+            <Button
+                Margin="110,10"
+                Text="customize"
+                />
+
+            <Image
+                Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\info.png"
+                />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
