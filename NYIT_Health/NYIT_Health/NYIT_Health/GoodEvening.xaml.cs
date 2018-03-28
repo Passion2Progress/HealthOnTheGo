@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace NYIT_Health
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Page1 : ContentPage
+	public partial class GoodEvening: ContentPage
 	{
-		public Page1 ()
+		public GoodEvening ()
 		{
 			InitializeComponent ();
 		}
