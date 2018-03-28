@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NYIT_Health.Page1"
+             BackgroundColor="WhiteSmoke">
+    <ContentPage.Content>
+        <StackLayout Margin=" 10,50,10,10" >
+            <Label
+                Text="Need a nap?"
+                TextColor="DimGray"
+                HorizontalTextAlignment="Center"
+                FontSize="45"
+                />
+
+            <Frame Margin="50,20,50,10" Padding="10,10,10,10"
+               OutlineColor="DimGray"
+               HasShadow="False"
+               CornerRadius="0"
+               HorizontalOptions="Center">
+
+                <Label 
+                    Text="Tip: A short nap is always okay if you need that extra boost of energy." 
+                    TextColor="DimGray"
+                    FontSize="14" 
+                    HorizontalTextAlignment="Center"
+                    />
+
+            </Frame>
+
+            <Image
+                Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\bed.png"
+                />
+
+            <Grid>
+                <Image
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\yes.png"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                />
+                <Image
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\no.png"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                />
+            </Grid>
+
+            <Label
+                Text="I recomend you nap from,"
+                TextColor="DimGray"
+                FontSize="25"
+                HorizontalTextAlignment="Center"
+                />
+
+            <Label
+                Text="(Start) - (End)."
+                TextColor="DimGray"
+                FontSize="25"
+                HorizontalTextAlignment="Center"
+                />
+
+            <Label
+                Text="Ill direct you there."
+                TextColor="DimGray"
+                FontSize="18"
+                HorizontalTextAlignment="Center"
+                />
+
+
+            <Button
+                Margin="110,10,110,10"
+                Text="customize"
+                />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

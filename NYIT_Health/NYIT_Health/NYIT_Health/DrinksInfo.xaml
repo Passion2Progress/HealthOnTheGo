@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NYIT_Health.Page1"
+             BackgroundColor="WhiteSmoke">
+            
+    <ContentPage.Content>
+        <StackLayout Margin=" 10,50,10,10">
+            <Image Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\info.png"/>
+
+            <Label
+                Text="Information"
+                TextColor="DimGray"
+                HorizontalTextAlignment="Center"
+                FontSize="40"
+                />
+
+            <Grid Margin="0,30,0,0">
+                <Image
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\drink0a.png"
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    
+                />
+
+                <Label
+                    Text="Beer or wine for that celebration"
+                    FontSize="22"
+                    TextColor="DimGray"
+                    Grid.Row="0"
+                    Grid.Column="1"
+                    />
+
+                <Image
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\drink1a.png"
+                    Grid.Row="1"
+                    Grid.Column="0"
+                />
+
+                <Label
+                    Text="Soda for that burger combo"
+                    FontSize="22"
+                    TextColor="DimGray"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    />
+
+                <Image
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\drink2a.png"
+                    Grid.Row="2"
+                    Grid.Column="0"
+                />
+
+                <Label
+                    Text="Orange juice for that vitamin c"
+                    FontSize="22"
+                    TextColor="DimGray"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    />
+
+                <Image
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\drink3a.png"
+                    Grid.Row="3"
+                    Grid.Column="0"
+                />
+
+                <Label
+                    Text="Coffe for that extra energy"
+                    FontSize="22"
+                    TextColor="DimGray"
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    />
+
+                <Image
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\drink4a.png"
+                    Grid.Row="4"
+                    Grid.Column="0"
+                />
+
+                <Label
+                    Text="Water because its water"
+                    FontSize="22"
+                    TextColor="DimGray"
+                    Grid.Row="4"
+                    Grid.Column="1"
+                    />
+
+            </Grid>
+
+            <Button
+                Margin="110,30"
+                Text="back"
+                />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
