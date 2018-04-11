@@ -4,8 +4,6 @@
              xmlns:local="clr-namespace:NYIT_Health"
              x:Class="NYIT_Health.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+	
 
 </ContentPage>

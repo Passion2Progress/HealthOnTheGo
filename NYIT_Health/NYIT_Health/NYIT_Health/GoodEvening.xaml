@@ -42,31 +42,80 @@
               />
 
             <Grid>
-                <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji0.png"
-                    Grid.Row="0"
-                    Grid.Column="0"
-                />
+                <Image 
+                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji0.png" 
+                    Grid.Row="0" 
+                    Grid.Column="0">
+                    <Image.GestureRecognizers>
+                        
+                        <TapGestureRecognizer
+                            Tapped="Emoji0Tapped"
+                            />
+                        
+                    </Image.GestureRecognizers>
+                    
+                </Image>
+
                 <Image
                     Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji1.png"
                     Grid.Row="0"
                     Grid.Column="1"
-                />
+                >
+                    <Image.GestureRecognizers>
+
+                        <TapGestureRecognizer
+                            Tapped="Emoji1Tapped"
+                            />
+
+                    </Image.GestureRecognizers>
+
+                </Image>
+
                 <Image
                     Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji2.png"
                     Grid.Row="0"
                     Grid.Column="2"
-                />
+                >
+                    <Image.GestureRecognizers>
+
+                        <TapGestureRecognizer
+                            Tapped="Emoji2Tapped"
+                            />
+
+                    </Image.GestureRecognizers>
+
+                </Image>
+
                 <Image
                     Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji3.png"
                     Grid.Row="0"
                     Grid.Column="3"
-                />
+                >
+                    <Image.GestureRecognizers>
+
+                        <TapGestureRecognizer
+                            Tapped="Emoji3Tapped"
+                            />
+
+                    </Image.GestureRecognizers>
+
+                </Image>
+
                 <Image
                     Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji4.png"
                     Grid.Row="0"
                     Grid.Column="4"
-                />
+                >
+                    <Image.GestureRecognizers>
+
+                        <TapGestureRecognizer
+                            Tapped="Emoji4Tapped"
+                            />
+
+                    </Image.GestureRecognizers>
+
+                </Image>
+
             </Grid>
 
             <Label
@@ -92,6 +141,7 @@
             <Image
                 Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\info.png"
                 />
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

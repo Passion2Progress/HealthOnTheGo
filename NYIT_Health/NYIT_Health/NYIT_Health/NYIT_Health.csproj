@@ -13,7 +13,7 @@
       <DependentUpon>*.xaml</DependentUpon>
     </Compile>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
-      <DependentUpon>*.xaml</DependentUpon>
+      <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Update="GoodMorning.xaml.cs">
       <DependentUpon>GoodMorning.xaml</DependentUpon>
@@ -26,6 +26,9 @@
     </Compile>
     <Compile Update="GoodNight.xaml.cs">
       <DependentUpon>GoodNight.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="MasterDetailPage1MenuItem.cs">
+      <SubType>Code</SubType>
     </Compile>
     <Compile Update="Nap.xaml.cs">
       <DependentUpon>Nap.xaml</DependentUpon>
@@ -49,6 +52,15 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="GoodNight.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MasterDetailPage1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MasterDetailPage1Detail.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MasterDetailPage1Master.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Nap.xaml">

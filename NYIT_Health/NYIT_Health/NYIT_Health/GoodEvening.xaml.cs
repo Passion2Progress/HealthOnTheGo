@@ -16,5 +16,41 @@ namespace NYIT_Health
 		{
 			InitializeComponent ();
 		}
-	}
+
+        void Emoji0Tapped(Object sender, EventArgs args)
+        {
+            var imageSender = (Image)sender;
+
+
+        }
+
+        void Emoji1Tapped(Object sender, EventArgs args)
+        {
+            var imageSender = (Image)sender;
+
+
+        }
+
+        void Emoji2Tapped(Object sender, EventArgs args)
+        {
+            var imageSender = (Image)sender;
+
+
+        }
+
+        void Emoji3Tapped(Object sender, EventArgs args)
+        {
+            var imageSender = (Image)sender;
+
+
+        }
+
+        void Emoji4Tapped(Object sender, EventArgs args)
+        {
+            var imageSender = (Image)sender;
+
+
+        }
+
+    }
 }
