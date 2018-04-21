@@ -67,6 +67,7 @@
     <None Include="Assets\AboutAssets.txt" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\drawable\icon.png" />
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
@@ -86,78 +87,6 @@
       <Project>{E7DF4442-DFE3-4593-A4C7-E1DC47D7AF03}</Project>
       <Name>NYIT_Health</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\bed.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\drink0.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\drink0a.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\drink1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\drink1a.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\drink2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\drink2a.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\drink3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\drink3a.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\drink4.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\drink4a.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\emoji0.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\emoji0a.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\emoji1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\emoji1a.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\emoji2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\emoji2a.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\emoji3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\emoji3a.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\emoji4.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\emoji4a.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\info.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\no.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\drawable\yes.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

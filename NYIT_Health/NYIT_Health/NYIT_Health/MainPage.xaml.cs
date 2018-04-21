@@ -13,5 +13,11 @@ namespace NYIT_Health
 		{
 			InitializeComponent();
 		}
-	}
+
+        async void OnNextPageButton(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new NYIT_Health.GoodMorining());
+        }
+
+    }
 }

@@ -3,7 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:NYIT_Health"
              x:Class="NYIT_Health.MainPage">
-
-	
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Button Text="next page" Clicked="OnNextPageButton">
+                
+            </Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
 
 </ContentPage>

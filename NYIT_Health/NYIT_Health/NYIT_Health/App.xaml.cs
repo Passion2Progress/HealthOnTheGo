@@ -13,8 +13,8 @@ namespace NYIT_Health
 		{
 			InitializeComponent();
 
-			MainPage = new NYIT_Health.MainPage();
-		}
+            MainPage = new NavigationPage(new NYIT_Health.MainPage());
+        }
 
 		protected override void OnStart ()
 		{
