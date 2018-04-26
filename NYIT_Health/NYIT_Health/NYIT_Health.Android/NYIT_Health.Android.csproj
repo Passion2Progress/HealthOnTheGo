@@ -124,31 +124,31 @@
     <AndroidResource Include="Resources\drawable\emoji0.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\drawable\emoji0a.png" />
+    <AndroidResource Include="Resources\drawable\emoji0a.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\emoji1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\drawable\emoji1a.png" />
+    <AndroidResource Include="Resources\drawable\emoji1a.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\emoji2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\drawable\emoji2a.png" />
+    <AndroidResource Include="Resources\drawable\emoji2a.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\emoji3.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\drawable\emoji3a.png" />
+    <AndroidResource Include="Resources\drawable\emoji3a.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\emoji4.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\drawable\emoji4a.png" />
+    <AndroidResource Include="Resources\drawable\emoji4a.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\info.png" />

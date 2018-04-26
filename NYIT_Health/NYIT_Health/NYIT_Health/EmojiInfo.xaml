@@ -5,83 +5,90 @@
              BackgroundColor="WhiteSmoke">
 
     <ContentPage.Content>
-        <StackLayout Margin=" 10,50,10,10">
-            <Image Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\info.png"/>
+        
+        <StackLayout>
             
+            <Image Source="info.png" 
+                   Scale="1.8" 
+                   Margin="0,20,0,5"
+                   HorizontalOptions="Center"
+                   />
+
             <Label
+                Margin="0,0,0,20"
                 Text="Information"
                 TextColor="DimGray"
                 HorizontalTextAlignment="Center"
                 FontSize="40"
                 />
 
-            <Grid Margin="0,30,0,0">
+            <Grid ColumnSpacing="-60" RowSpacing="10" Padding="0,0,35,0">
+                
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji0a.png"
+                    Source="emoji0a.png"
                     Grid.Row="0"
                     Grid.Column="0"
-                    
-                />
+                     />
 
                 <Label
                     Text="You feel you need more rest"
-                    FontSize="22"
+                    FontSize="16"
                     TextColor="DimGray"
                     Grid.Row="0"
                     Grid.Column="1"
                     />
-                
+
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji1a.png"
+                    Source="emoji1a.png"
                     Grid.Row="1"
                     Grid.Column="0"
                 />
 
                 <Label
                     Text="You feel a bit groggy"
-                    FontSize="22"
+                    FontSize="16"
                     TextColor="DimGray"
                     Grid.Row="1"
                     Grid.Column="1"
                     />
-                
+
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji2a.png"
+                    Source="emoji2a.png"
                     Grid.Row="2"
                     Grid.Column="0"
                 />
 
                 <Label
                     Text="Your in a neutral state not tired"
-                    FontSize="22"
+                    FontSize="16"
                     TextColor="DimGray"
                     Grid.Row="2"
                     Grid.Column="1"
                     />
 
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji3a.png"
+                    Source="emoji3a.png"
                     Grid.Row="3"
                     Grid.Column="0"
                 />
 
                 <Label
                     Text="Feeling energized and ready"
-                    FontSize="22"
+                    FontSize="16"
                     TextColor="DimGray"
                     Grid.Row="3"
                     Grid.Column="1"
                     />
 
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\emoji4a.png"
+                    Source="emoji4a.png"
                     Grid.Row="4"
                     Grid.Column="0"
                 />
 
                 <Label
                     Text="Ready to take on the day"
-                    FontSize="22"
+                    FontSize="16"
                     TextColor="DimGray"
                     Grid.Row="4"
                     Grid.Column="1"
@@ -90,7 +97,7 @@
             </Grid>
 
             <Button
-                Margin="110,30"
+                Margin="110,10"
                 Text="back"
                 />
 

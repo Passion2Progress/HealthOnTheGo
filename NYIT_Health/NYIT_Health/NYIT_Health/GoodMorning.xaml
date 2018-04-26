@@ -150,6 +150,7 @@
             <Image
                 Margin="0,0,0,20"
                 Source="info.png"
+                Scale="1.8"
                 >
                 
                 <Image.GestureRecognizers>

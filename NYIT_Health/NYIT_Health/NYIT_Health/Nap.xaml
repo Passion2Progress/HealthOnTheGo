@@ -28,17 +28,17 @@
             </Frame>
 
             <Image
-                Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\bed.png"
+                Source="bed.png"
                 />
 
             <Grid>
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\yes.png"
+                    Source="yes.png"
                     Grid.Row="0"
                     Grid.Column="0"
                 />
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\no.png"
+                    Source="no.png"
                     Grid.Row="0"
                     Grid.Column="1"
                 />

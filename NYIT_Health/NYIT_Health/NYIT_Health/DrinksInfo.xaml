@@ -17,7 +17,7 @@
 
             <Grid Margin="0,30,0,0">
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\drink0a.png"
+                    Source="drink0a.png"
                     Grid.Row="0"
                     Grid.Column="0"
                     
@@ -32,7 +32,7 @@
                     />
 
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\drink1a.png"
+                    Source="drink1a.png"
                     Grid.Row="1"
                     Grid.Column="0"
                 />
@@ -46,7 +46,7 @@
                     />
 
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\drink2a.png"
+                    Source="drink2a.png"
                     Grid.Row="2"
                     Grid.Column="0"
                 />
@@ -60,7 +60,7 @@
                     />
 
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\drink3a.png"
+                    Source="drink3a.png"
                     Grid.Row="3"
                     Grid.Column="0"
                 />
@@ -74,7 +74,7 @@
                     />
 
                 <Image
-                    Source="C:\Users\Luke\Documents\GitHub\HealthOnTheGo\NYIT_Health\NYIT_Health\NYIT_Health\images\drink4a.png"
+                    Source="drink4a.png"
                     Grid.Row="4"
                     Grid.Column="0"
                 />
