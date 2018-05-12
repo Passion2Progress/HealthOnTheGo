@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.NYIT_Health" android:installLocation="preferExternal">
-	<uses-sdk android:minSdkVersion="11" android:targetSdkVersion="26" />
-	<application android:label="NYIT_Health.Android" android:icon="@drawable/icon"></application>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.companyname.NYIT_Health" android:installLocation="preferExternal" android:versionCode="1" android:versionName="1.0">
+	<uses-sdk android:targetSdkVersion="27" android:minSdkVersion="25" />
+	<application android:label="NYIT_Health.Android"></application>
 </manifest>

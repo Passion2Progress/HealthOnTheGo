@@ -1,16 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:NYIT_Health"
-             x:Class="NYIT_Health.MainPage">
+             x:Class="NYIT_Health.Alarm">
     <ContentPage.Content>
         <StackLayout>
-            
-            <Button Text="next page" Clicked="OnNextPageButton">
-                
-            </Button>
-            
+            <Label Text="This is the alarm page"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
-
 </ContentPage>

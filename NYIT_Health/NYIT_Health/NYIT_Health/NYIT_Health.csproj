@@ -16,61 +16,70 @@
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
       <DependentUpon>*.xaml</DependentUpon>
     </Compile>
-    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
-      <DependentUpon>MainPage.xaml</DependentUpon>
+    <Compile Update="Statistics\MyData.xaml.cs">
+      <DependentUpon>MyData.xaml</DependentUpon>
     </Compile>
-    <Compile Update="GoodMorning.xaml.cs">
+    <Compile Update="Survey_Pages\GoodMorning.xaml.cs">
       <DependentUpon>GoodMorning.xaml</DependentUpon>
     </Compile>
-    <Compile Update="DrinksInfo.xaml.cs">
+    <Compile Update="Survey_Pages\Info_Pages\DrinksInfo.xaml.cs">
       <DependentUpon>DrinksInfo.xaml</DependentUpon>
     </Compile>
-    <Compile Update="GoodEvening.xaml.cs">
+    <Compile Update="Survey_Pages\GoodEvening.xaml.cs">
       <DependentUpon>GoodEvening.xaml</DependentUpon>
     </Compile>
-    <Compile Update="GoodNight.xaml.cs">
+    <Compile Update="Survey_Pages\GoodNight.xaml.cs">
       <DependentUpon>GoodNight.xaml</DependentUpon>
     </Compile>
-    <Compile Update="MasterDetailPage1MenuItem.cs">
+    <Compile Update="Navigation\MasterDetailPage1MenuItem.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Nap.xaml.cs">
+    <Compile Update="Survey_Pages\Nap.xaml.cs">
       <DependentUpon>Nap.xaml</DependentUpon>
     </Compile>
-    <Compile Update="YourDay.xaml.cs">
+    <Compile Update="Survey_Pages\YourDay.xaml.cs">
       <DependentUpon>YourDay.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="EmojiInfo.xaml">
+    <EmbeddedResource Update="Alarm\Alarm.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GoodMorning.xaml">
+    <EmbeddedResource Update="Goals\Goals.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="DrinksInfo.xaml">
+    <EmbeddedResource Update="Settings\Settings.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GoodEvening.xaml">
+    <EmbeddedResource Update="Survey_Pages\Info_Pages\EmojiInfo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GoodNight.xaml">
+    <EmbeddedResource Update="Survey_Pages\GoodMorning.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="MasterDetailPage1.xaml">
+    <EmbeddedResource Update="Survey_Pages\Info_Pages\DrinksInfo.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="MasterDetailPage1Detail.xaml">
+    <EmbeddedResource Update="Survey_Pages\GoodEvening.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="MasterDetailPage1Master.xaml">
+    <EmbeddedResource Update="Survey_Pages\GoodNight.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Nap.xaml">
+    <EmbeddedResource Update="Navigation\MasterDetailPage1.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="YourDay.xaml">
+    <EmbeddedResource Update="Statistics\MyData.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Navigation\MasterDetailPage1Master.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Survey_Pages\Nap.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Survey_Pages\YourDay.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

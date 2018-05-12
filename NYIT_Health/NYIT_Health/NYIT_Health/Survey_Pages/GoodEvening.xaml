@@ -9,7 +9,7 @@
                 Text="Good evening,"
                 TextColor="DimGray"
                 HorizontalTextAlignment="Center"
-                FontSize="45"
+                FontSize ="45"
                 />
 
             <Label
