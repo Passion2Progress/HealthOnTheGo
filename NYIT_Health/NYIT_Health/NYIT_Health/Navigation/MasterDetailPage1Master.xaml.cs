@@ -35,12 +35,14 @@ namespace NYIT_Health
                 {
                     new MasterDetailPage1MenuItem { Id = 0, Title = "My Data" , TargetType = typeof(MyData)},
                     new MasterDetailPage1MenuItem { Id = 1, Title = "Goals" , TargetType = typeof(Goals) },
-                    new MasterDetailPage1MenuItem { Id = 2, Title = "Surveys", TargetType = typeof(GoodMorining) },
+                    new MasterDetailPage1MenuItem { Id = 2, Title = "Surveys"},
                     new MasterDetailPage1MenuItem { Id = 3, Title = "Alarms" , TargetType = typeof(Alarm)},
                     new MasterDetailPage1MenuItem { Id = 4, Title = "Settings" , TargetType = typeof(Settings)},
                 });
             }
+
             
+
             #region INotifyPropertyChanged Implementation
             public event PropertyChangedEventHandler PropertyChanged;
             void OnPropertyChanged([CallerMemberName] string propertyName = "")

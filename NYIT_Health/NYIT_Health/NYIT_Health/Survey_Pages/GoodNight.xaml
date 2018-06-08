@@ -4,6 +4,9 @@
              x:Class="NYIT_Health.GoodNight"
              BackgroundColor="WhiteSmoke">
     <ContentPage.Content>
+
+        <ScrollView>
+        
         <StackLayout Margin=" 10,50,10,10" >
             <Label
                 Text="Good evening,"
@@ -84,5 +87,6 @@
                 Source="info.png"
                 />
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

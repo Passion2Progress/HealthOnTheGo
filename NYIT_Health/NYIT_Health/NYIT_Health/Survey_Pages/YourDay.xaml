@@ -4,7 +4,7 @@
              x:Class="NYIT_Health.YourDay"
              BackgroundColor="WhiteSmoke">
     <ContentPage.Content>
-
+        <ScrollView>
         <StackLayout Margin=" 10,50,10,10" >
             <Label
                 Text="Hows your day"
@@ -96,7 +96,7 @@
 
         </StackLayout>
 
-
+        </ScrollView>
 
 
     </ContentPage.Content>
