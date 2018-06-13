@@ -49,17 +49,17 @@ namespace NYIT_Health
             string c = a + b;
             int time = Int32.Parse(c);
 
-            if (time >= 300 && time <= 1100)
+            if (time >= 400 && time <= 1200)
             {
                 // 3:00 - 11:00 morning
                 surveyPage = typeof(GoodMorining);
             }
-            else if (time >= 1101 && time <= 1900)
+            else if (time >= 1201 && time <= 1900)
             {
                 // 11:01 - 19:00 evening
                 surveyPage = typeof(GoodEvening);
             }
-            else if (time >= 1901 || time <= 259)
+            else if (time >= 1901 || time <= 359)
             {
                 // 19:01 - 2:59 night
                 surveyPage = typeof(GoodNight);

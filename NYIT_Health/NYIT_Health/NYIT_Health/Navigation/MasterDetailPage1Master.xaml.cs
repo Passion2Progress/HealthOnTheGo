@@ -36,6 +36,8 @@ namespace NYIT_Health
                     new MasterDetailPage1MenuItem { Id = 0, Title = "My Data" , TargetType = typeof(MyData)},
                     new MasterDetailPage1MenuItem { Id = 1, Title = "Goals" , TargetType = typeof(Goals) },
                     new MasterDetailPage1MenuItem { Id = 2, Title = "Surveys"},
+                    new MasterDetailPage1MenuItem { Id = 4, Title = "Take a Nap" , TargetType = typeof(Nap)},
+                    new MasterDetailPage1MenuItem { Id = 4, Title = "Daily Survey" , TargetType = typeof(YourDay)},
                     new MasterDetailPage1MenuItem { Id = 3, Title = "Alarms" , TargetType = typeof(Alarm)},
                     new MasterDetailPage1MenuItem { Id = 4, Title = "Settings" , TargetType = typeof(Settings)},
                 });

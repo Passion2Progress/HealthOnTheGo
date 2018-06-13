@@ -9,7 +9,7 @@
         
         <StackLayout Margin=" 10,50,10,10" >
             <Label
-                Text="Good evening,"
+                Text="Good afternoon,"
                 TextColor="DimGray"
                 HorizontalTextAlignment="Center"
                 FontSize ="45"
@@ -136,16 +136,28 @@
                 />
 
 
-            <Button
-                Margin="110,10,110,10"
+                <Button
+                Margin="80,10"
                 Text="customize"
                 />
 
-            <Image
+                <Image
+                Margin="0,0,0,20"
                 Source="info.png"
-                />
-            
-        </StackLayout>
+                Scale="1.8"
+                >
+
+                    <Image.GestureRecognizers>
+
+                        <TapGestureRecognizer
+                            Tapped="InfoTapped"
+                            />
+
+                    </Image.GestureRecognizers>
+
+                </Image>
+
+            </StackLayout>
         
         </ScrollView>
     </ContentPage.Content>

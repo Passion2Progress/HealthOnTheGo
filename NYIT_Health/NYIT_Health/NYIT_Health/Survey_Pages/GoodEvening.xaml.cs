@@ -52,5 +52,11 @@ namespace NYIT_Health
 
         }
 
+        async void InfoTapped(Object sender, EventArgs args)
+        {
+            await Navigation.PushAsync(new NYIT_Health.EmojiInfo());
+
+
+        }
     }
 }
